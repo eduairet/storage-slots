@@ -1,17 +1,17 @@
 {
-  "name": "proxy-contracts-hardhat",
+  "name": "storage-slots",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This document has a practical approach to storage slots in solidity.",
+  "main": "hardhat.config.ts",
   "scripts": {
     "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "node": "npx hardhat node",
     "test": "npx hardhat test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ethereum", "hardhat", "smart-contracts", "typescript"],
+  "author": "Alchemy University / Eduardo Aire",
+  "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "dotenv": "^16.0.3",
